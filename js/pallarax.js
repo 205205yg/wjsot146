@@ -1,6 +1,7 @@
 class ParallaxEffectBackground {
 	constructor() {
-		this.devided = 5;
+		// 遅延スピード：デフォルト5
+		this.devided = 20;
 		this.target = '.wrapper';
 		this.setBackgroundPosition();
 	}

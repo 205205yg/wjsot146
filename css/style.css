@@ -139,6 +139,9 @@ body {
   color: #333;
   background: #16a4d3;
   line-height: 1.6;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
 a {
@@ -343,7 +346,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #ccc;
-  padding: 5px 0;
+  padding: 6px 0;
 }
 #news .news_area .news_column .news_row {
   display: flex;
