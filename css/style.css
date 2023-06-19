@@ -154,6 +154,9 @@ a:hover {
 #wrapper {
   width: 100%;
   margin: 0 auto;
+}
+
+.wrapper {
   background-image: url("../img/bg_image.png");
   background-position: top center;
   background-repeat: no-repeat;
