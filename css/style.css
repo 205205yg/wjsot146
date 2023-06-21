@@ -411,6 +411,7 @@ a:hover {
 .global_nav ul {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
   gap: 5px;
 }
 .global_nav ul li a {
