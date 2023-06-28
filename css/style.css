@@ -372,6 +372,7 @@ a:hover {
   position: fixed;
   bottom: 20px;
   right: 60px;
+  z-index: 9999;
 }
 #pagetop:hover {
   cursor: pointer;
