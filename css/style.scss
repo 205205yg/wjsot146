@@ -15,7 +15,7 @@ body {
 	color: #333;
 	background: #16a4d3;
 	line-height: 1.6;
-	text-size-adjust: none;
+	text-size-adjust: 100%;
 }
 
 a {
@@ -595,6 +595,7 @@ a {
 		border: 1px solid $primary_color;
 		color: $primary_color;
 		transition: all 0.2s;
+		opacity: 1;
 	}
 }
 

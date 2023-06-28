@@ -139,9 +139,9 @@ body {
   color: #333;
   background: #16a4d3;
   line-height: 1.6;
-  -webkit-text-size-adjust: none;
-     -moz-text-size-adjust: none;
-          text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
 a {
@@ -648,6 +648,7 @@ a:hover {
   border: 1px solid #1258a7;
   color: #1258a7;
   transition: all 0.2s;
+  opacity: 1;
 }
 
 .btn_disable {
