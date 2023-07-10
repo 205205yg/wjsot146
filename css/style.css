@@ -153,6 +153,9 @@ a:hover {
   transition: all 0.2s;
   text-decoration: none;
 }
+a:visited {
+  color: #143C6E;
+}
 
 #wrapper {
   width: 100%;
@@ -641,13 +644,13 @@ a:hover {
 .btn_enable {
   border: 1px solid #1258a7;
   background: #1258a7;
-  color: #fff;
+  color: #fff !important;
   transition: all 0.2s;
 }
 .btn_enable:hover {
   background: #fff;
   border: 1px solid #1258a7;
-  color: #1258a7;
+  color: #1258a7 !important;
   transition: all 0.2s;
   opacity: 1;
 }

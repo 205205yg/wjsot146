@@ -28,6 +28,11 @@ a {
 		transition: all 0.2s;
 		text-decoration: none;
 	}
+
+	&:visited {
+		color: $primary_dark_color;
+	}
+
 }
 
 // ID-------------------------------------------------
@@ -588,13 +593,13 @@ a {
 .btn_enable {
 	border: 1px solid $primary_color;
 	background: $primary_color;
-	color: #fff;
+	color: #fff !important;
 	transition: all 0.2s;
 
 	&:hover {
 		background: #fff;
 		border: 1px solid $primary_color;
-		color: $primary_color;
+		color: $primary_color !important;
 		transition: all 0.2s;
 		opacity: 1;
 	}
