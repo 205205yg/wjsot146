@@ -412,6 +412,30 @@ a:visited {
   padding-top: 30px;
 }
 
+.table {
+  margin: 15px 0 30px 0;
+}
+.table tr {
+  border-top: 1px solid #999;
+  border-left: 1px solid #999;
+  vertical-align: middle;
+}
+.table tr th {
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+  padding: 5px 10px;
+  text-align: center;
+  background: rgb(222, 244, 241);
+}
+.table tr td {
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+  padding: 5px 10px;
+  background: #fff;
+}
+
 .global_nav ul {
   display: flex;
   flex-direction: column;
@@ -671,4 +695,21 @@ a:visited {
   height: 1px;
   border-bottom: 1px solid #999;
   margin: 30px auto;
+}
+
+.icon_nwidnwo {
+  position: relative;
+}
+.icon_nwidnwo:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("../img/newwindow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
