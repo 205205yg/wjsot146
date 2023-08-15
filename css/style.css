@@ -697,10 +697,10 @@ a:visited {
   margin: 30px auto;
 }
 
-.icon_nwidnwo {
+.icon_nwindow {
   position: relative;
 }
-.icon_nwidnwo:before {
+.icon_nwindow:before {
   position: absolute;
   top: 50%;
   transform: translateY(-60%);
@@ -708,6 +708,23 @@ a:visited {
   width: 10px;
   height: 10px;
   background: url("../img/newwindow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.icon_nwindow_blue {
+  position: relative;
+}
+.icon_nwindow_blue:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url("../img/newwindow_blue.svg");
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 5px;
