@@ -477,11 +477,10 @@ a:visited {
   height: 60px;
   background: rgb(0, 60, 170);
   background: linear-gradient(90deg, rgb(0, 60, 170) 0%, rgb(110, 180, 255) 100%);
-  padding: 0 10px 0 20px;
+  padding: 0 10px 0 40px;
   border: none;
   line-height: 1.4;
   transition: all 0.2s;
-  text-indent: 1em;
   opacity: 1;
 }
 .global_nav ul li a.selected {
@@ -729,4 +728,9 @@ a:visited {
   background-repeat: no-repeat;
   margin-left: 5px;
   color: #fff;
+}
+
+.material-symbols-outlined.newicon {
+  font-size: 15px;
+  margin-left: 0.25em;
 }/*# sourceMappingURL=style.css.map */
