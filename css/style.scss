@@ -35,6 +35,10 @@ a {
 
 }
 
+b {
+	font-weight: bold;
+}
+
 // ID-------------------------------------------------
 #wrapper {
 	width: 100%;
@@ -125,6 +129,10 @@ a {
 		padding: 4px 0 0 5px;
 		background: rgb(255, 255, 255);
 		background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 75%);
+	}
+
+	h5 {
+		font-weight: bold;
 	}
 
 	img {
