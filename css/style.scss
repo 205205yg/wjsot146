@@ -39,6 +39,10 @@ b {
 	font-weight: bold;
 }
 
+td {
+	vertical-align: top;
+}
+
 // ID-------------------------------------------------
 #wrapper {
 	width: 100%;
@@ -71,7 +75,7 @@ b {
 }
 
 #contents {
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.925);
 	width: 720px;
 	padding: 30px;
 	text-align: justify;
@@ -255,7 +259,7 @@ b {
 }
 
 #news {
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.925);
 	padding: 20px;
 
 	.news_title {
@@ -391,7 +395,7 @@ b {
 				flex-direction: row;
 				align-items: center;
 				height: 60px;
-				background: rgba(255, 255, 255, 0.9);
+				background: rgba(255, 255, 255, 0.925);
 				padding: 0 10px 0 20px;
 				line-height: 1.4;
 				position: relative;
