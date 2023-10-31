@@ -723,7 +723,7 @@ td {
 		font-size: 18px;
 		font-weight: bold;
 		// width: fit-content;
-		border-bottom: 1px solid #7d7d7d;
+		//border-bottom: 1px solid #7d7d7d;
 		margin-bottom: 5px;
 	}
 
@@ -733,11 +733,18 @@ td {
 }
 
 .btn_shuttle {
+	border: 1px solid #ff0000;
+	background:#ff0000;
+	color: #fff !important;
+	transition: all 0.2s;
+	width: 200px;
+	margin: auto;
+
+	&:hover {
+	background: #fff;
+	border: 1px solid #ff0000;
 	color: #ff0000 !important;
-	width: fit-content;
-	height: 30px;
-	text-decoration: underline;
-	min-width: auto;
-	margin: 5px 0 20px 0;
-	border-radius: 2px;
+	transition: all 0.2s;
+	opacity: 1;
+}
 }
