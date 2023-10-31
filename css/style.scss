@@ -8,7 +8,7 @@ $secandary_color: #FFDC00;
 
 
 
-// ベース-------------------------------------------------
+// BASE-------------------------------------------------
 body {
 	font-size: 16px;
 	font-family: "メイリオ", "Meiryo", sans-serif;
@@ -620,7 +620,6 @@ td {
 	}
 }
 
-
 .btn_area {
 	display: flex;
 	justify-content: center;
@@ -711,4 +710,34 @@ td {
 .material-symbols-outlined.newicon {
 	font-size: 15px;
 	margin-left: 0.25em;
+}
+
+.announce {
+	padding: 15px 30px;
+	margin-bottom: 20px;
+	background: #fff;
+	border: 3px solid #dc0700;
+
+	h3 {
+		color: #000000;
+		font-size: 18px;
+		font-weight: bold;
+		// width: fit-content;
+		border-bottom: 1px solid #000000;
+		margin-bottom: 5px;
+	}
+
+	p {
+		line-height: 1.5;
+	}
+}
+
+.btn_shuttle {
+	color: #ff0000 !important;
+	width: fit-content;
+	height: 30px;
+	text-decoration: underline;
+	min-width: auto;
+	margin: 5px 0 20px 0;
+	border-radius: 2px;
 }

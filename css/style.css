@@ -752,4 +752,32 @@ td {
 .material-symbols-outlined.newicon {
   font-size: 15px;
   margin-left: 0.25em;
+}
+
+.announce {
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 3px solid #dc0700;
+}
+.announce h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 5px;
+}
+.announce p {
+  line-height: 1.5;
+}
+
+.btn_shuttle {
+  color: #ff0000 !important;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 30px;
+  text-decoration: underline;
+  min-width: auto;
+  margin: 5px 0 20px 0;
+  border-radius: 2px;
 }/*# sourceMappingURL=style.css.map */
